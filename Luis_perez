@@ -1,0 +1,170 @@
+# Aplicaciones Distribuidas - Mapas Mentales
+
+**Nombre Estudiante:** Luis Perez
+
+---
+
+## Título Central
+Arquitectura y Fundamentos Clave para Aplicaciones Distribuidas Modernas
+
+## Subtítulo
+Un recorrido visual por patrones, herramientas y buenas prácticas para construir sistemas escalables, mantenibles y resilientes.
+
+---
+
+## Sección por cada concepto
+
+### 1. Introducción a Aplicaciones Distribuidas
+**Resumen del concepto:**  
+Paradigma arquitectónico donde el sistema se descompone en servicios independientes que colaboran a través de una red. Su objetivo es garantizar alta disponibilidad, tolerancia a fallos y escalabilidad horizontal mediante la distribución de la carga de trabajo entre nodos aislados.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Introducción a Aplicaciones Distribuidas](media/image1.png)
+
+### 2. Patrón API Gateway
+**Resumen del concepto:**  
+Patrón de diseño que actúa como una fachada unificada. Centraliza la lógica de enrutamiento, autenticación, monitoreo y limitación de tráfico (*rate limiting*), permitiendo que el cliente interactúe con un único punto de entrada.
+
+**Imagen del mapa mental:**  
+![Mapa mental - API Gateway](media/image2.png)
+
+### 3. RabbitMQ
+**Resumen del concepto:**  
+Agente de mensajería altamente confiable que implementa AMQP. Facilita la comunicación asíncrona entre productores y consumidores, eliminando el acoplamiento temporal.
+
+**Imagen del mapa mental:**  
+![Mapa mental - RabbitMQ](media/image3.png)
+
+### 4. ¿Qué es Entity Framework Core?
+**Resumen del concepto:**  
+ORM multiplataforma de alto rendimiento para .NET. Abstrae la capa de acceso a datos permitiendo persistir objetos de dominio sin SQL manual.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Entity Framework Core](media/image4.png)
+
+### 5. DbContext y DbSet
+**Resumen del concepto:**  
+`DbContext` representa la unidad de trabajo y el repositorio. `DbSet<TEntity>` es una colección que representa una entidad y permite operaciones CRUD.
+
+**Imagen del mapa mental:**  
+![Mapa mental - DbContext y DbSet](media/image5.png)
+
+### 6. Database First
+**Resumen del concepto:**  
+Estrategia donde el modelo de datos se deriva de una base de datos preexistente. Ideal para proyectos con estructura de datos compleja definida externamente.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Database First](media/image6.png)
+
+### 7. Code First
+**Resumen del concepto:**  
+Enfoque orientado al dominio donde las clases C# son la "única fuente de verdad". EF Core infiere el esquema y lo sincroniza mediante *Migrations*.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Code First](media/image7.png)
+
+### 8. Claves foráneas
+**Resumen del concepto:**  
+Restricciones de integridad referencial que formalizan asociaciones entre entidades. Permiten *lazy* o *eager loading* entre objetos.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Claves foráneas](media/image8.png)
+
+### 9. API REST en C#
+**Resumen del concepto:**  
+Interfaz bajo el estilo REST que usa métodos HTTP para exponer recursos, manteniendo comunicación *stateless*.
+
+**Imagen del mapa mental:**  
+![Mapa mental - API REST en C#](media/image9.png)
+
+### 10. Métodos HTTP
+**Resumen del concepto:**  
+Verbos que definen la semántica: GET (lectura), POST (creación), PUT (reemplazo), DELETE (eliminación), OPTIONS (descubrimiento).
+
+**Imagen del mapa mental:**  
+![Mapa mental - Métodos HTTP](media/image10.png)
+
+### 11. Códigos de respuesta
+**Resumen del concepto:**  
+Esquema estandarizado IETF: 4xx (errores de cliente), 5xx (errores de servidor). Garantizan trazabilidad del error.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Códigos de respuesta](media/image11.png)
+
+### 12. DTO vs. Entidad
+**Resumen del concepto:**  
+DTO desacopla la API del modelo interno, previene sobreexposición de datos y optimiza el *payload*.
+
+**Imagen del mapa mental:**  
+![Mapa mental - DTO vs Entidad](media/image12.png)
+
+### 13. Estructura de una aplicación
+**Resumen del concepto:**  
+Diseño modular en capas (Presentación, Aplicación, Dominio, Infraestructura) que garantiza separación de preocupaciones.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Estructura de aplicación](media/image13.png)
+
+### 14. Inyección de dependencias
+**Resumen del concepto:**  
+Patrón de inversión de control donde las dependencias se suministran mediante un contenedor, fomentando desacoplamiento.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Inyección de dependencias](media/image14.png)
+
+### 15. Principios SOLID
+**Resumen del concepto:**  
+Cinco principios de diseño orientado a objetos que mejoran mantenibilidad, escalabilidad y legibilidad.
+
+**Imagen del mapa mental:**  
+![Mapa mental - SOLID](media/image15.png)
+
+### 16. Arquitectura en N Capas
+**Resumen del concepto:**  
+Estilo lógico que organiza el código en capas jerárquicas, asegurando que la capa de negocio no dependa directamente de la persistencia.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Arquitectura N Capas](media/image16.png)
+
+### 17. Programación asíncrona
+**Resumen del concepto:**  
+Modelo TAP con `async/await` que libera hilos durante operaciones de I/O, mejorando escalabilidad bajo alta concurrencia.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Programación asíncrona](media/image17.png)
+
+### 18. Docker
+**Resumen del concepto:**  
+Virtualización a nivel de SO que encapsula aplicaciones en contenedores, eliminando el problema de "en mi máquina funciona".
+
+**Imagen del mapa mental:**  
+![Mapa mental - Docker](media/image18.png)
+
+### 19. Kubernetes
+**Resumen del concepto:**  
+Sistema de orquestación de contenedores para despliegue, escalado dinámico y autorecuperación de aplicaciones distribuidas.
+
+**Imagen del mapa mental:**  
+![Mapa mental - Kubernetes](media/image19.png)
+
+---
+
+## Conclusión personal
+
+Estos temas reflejan cómo el desarrollo de software actual se centra en construir aplicaciones distribuidas, escalables y desacopladas. El uso de patrones como API Gateway, mensajería con RabbitMQ y APIs REST permite una comunicación eficiente entre servicios, mientras que herramientas como Entity Framework Core facilitan la gestión de datos.
+
+Además, principios como SOLID, la inyección de dependencias y la arquitectura en capas ayudan a crear sistemas organizados, mantenibles y flexibles. Finalmente, tecnologías como Docker, Kubernetes y la programación asíncrona permiten desarrollar aplicaciones más eficientes, resilientes y preparadas para alta demanda.
+
+En conjunto, todos estos elementos forman la base para diseñar soluciones modernas y robustas.
+
+---
+
+## Links de apoyo o mapas mentales
+
+- [Patrón API Gateway - Microsoft Learn](https://learn.microsoft.com/es-es/azure/architecture/patterns/gateway-aggregation)
+- [RabbitMQ - Documentación oficial](https://www.rabbitmq.com/documentation.html)
+- [Entity Framework Core - Documentación oficial](https://learn.microsoft.com/ef/core/)
+- [Principios SOLID - Guía en español](https://www.digitalocean.com/community/conceptual-articles/solid-principles-in-c-sharp-es)
+- [Docker - Getting Started](https://docs.docker.com/get-started/)
+- [Kubernetes - Documentación oficial](https://kubernetes.io/es/docs/home/)
+- [Arquitectura en capas y DTOs - Refactoring Guru](https://refactoring.guru/es/design-patterns/dto)
